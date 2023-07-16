@@ -27,7 +27,7 @@ export class Response {
     return this;
   }
 
-  withMode(mode: ResponseMode): Response {
+  withMode(mode: ResponseMode): this {
     this.mode = mode;
     return this;
   }
