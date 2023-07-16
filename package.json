@@ -2,7 +2,7 @@
   "name": "mb-helper",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./project/lib/index.js",
   "scripts": {
     "lint-project": "cd project && npm run lint",
     "ci-project": "cd project && npm ci && npm run build",

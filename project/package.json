@@ -10,7 +10,10 @@
     "build": "tsc",
     "pretty": "prettier -w ./**/*",
     "lint": "eslint . --ext .ts",
-    "lint-fix": "eslint . --ext .ts --fix"
+    "lint-fix": "eslint . --ext .ts --fix",
+    "prepare": "npm run build",
+    "prepack": "npm run -s prepare",
+    "postinstall": "npm run -s prepare"
   },
   "repository": {
     "type": "git",
